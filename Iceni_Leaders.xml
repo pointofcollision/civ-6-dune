@@ -3,15 +3,18 @@
 	<Types>
 		<Row Type="LEADER_BOUDICCA" Kind="KIND_LEADER"/>
 		<Row Type="FAITH_KILLS_TRAIT" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_LEADER_UNIT_FEDAYKIN_FREMEN" Kind="KIND_TRAIT"/>
 	</Types>
 	<Leaders>
 		<Row LeaderType="LEADER_BOUDICCA" Name="LOC_LEADER_BOUDICCA_NAME" InheritFrom="LEADER_DEFAULT" SceneLayers="4"/>
 	</Leaders>
 	<LeaderTraits>
 		<Row LeaderType="LEADER_BOUDICCA" TraitType="FAITH_KILLS_TRAIT"/>
+		<Row LeaderType="LEADER_BOUDICCA" TraitType="TRAIT_LEADER_UNIT_FEDAYKIN_FREMEN"/>
 	</LeaderTraits>
 	<Traits>
 		<Row TraitType="FAITH_KILLS_TRAIT" Name="LOC_TRAIT_LEADER_ANDRASTE_NAME" Description="LOC_TRAIT_LEADER_ANDRASTE_DESCRIPTION"/>
+		<Row TraitType="TRAIT_LEADER_UNIT_FEDAYKIN_FREMEN" Name="LOC_UNIT_FEDAYKIN_FREMEN_NAME" Description="LOC_UNIT_FEDAYKIN_FREMEN_DESCRIPTION"/>
 	</Traits>
 	<TraitModifiers>
 		<Row TraitType="FAITH_KILLS_TRAIT" ModifierId="UNIQUE_LEADER_FAITH_KILLS"/>

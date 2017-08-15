@@ -34,6 +34,16 @@
 			<Domain>StandardPlayers</Domain>
 			<CivilizationType>CIVILIZATION_ICENI</CivilizationType>
 			<LeaderType>LEADER_BOUDICCA</LeaderType>
+			<Type>UNIT_FEDAYKIN_FREMEN</Type>
+			<Name>LOC_UNIT_FEDAYKIN_FREMEN_NAME</Name>
+			<Description>LOC_UNIT_FEDAYKIN_FREMEN_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_FEDAYKIN_FREMEN</Icon>
+			<SortIndex>100</SortIndex>
+		</Row>
+		<Row>
+			<Domain>StandardPlayers</Domain>
+			<CivilizationType>CIVILIZATION_ICENI</CivilizationType>
+			<LeaderType>LEADER_BOUDICCA</LeaderType>
 			<Type>IMPROVEMENT_KURGAN</Type>
 			<Name>LOC_IMPROVEMENT_SIETCH_NAME</Name>
 			<Description>LOC_IMPROVEMENT_SIETCH_DESCRIPTION</Description>

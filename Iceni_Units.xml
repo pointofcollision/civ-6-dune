@@ -3,28 +3,39 @@
 <GameInfo>
 	<Types>
 		<Row Type="UNIT_CELTIC_WARRIOR" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_FEDAYKIN_FREMEN" Kind="KIND_UNIT"/>
 	</Types>
 	<UnitAIInfos>
 		<Row UnitType="UNIT_CELTIC_WARRIOR" AiType="UNITAI_COMBAT"/>
 		<Row UnitType="UNIT_CELTIC_WARRIOR" AiType="UNITAI_EXPLORE"/>
 		<Row UnitType="UNIT_CELTIC_WARRIOR" AiType="UNITTYPE_MELEE"/>
 		<Row UnitType="UNIT_CELTIC_WARRIOR" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_FEDAYKIN_FREMEN" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_FEDAYKIN_FREMEN" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_FEDAYKIN_FREMEN" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_FEDAYKIN_FREMEN" AiType="UNITTYPE_LAND_COMBAT"/>
 	</UnitAIInfos>
 	<UnitReplaces>
 		<Row CivUniqueUnitType="UNIT_CELTIC_WARRIOR" ReplacesUnitType="UNIT_WARRIOR"/>
+		<Row CivUniqueUnitType="UNIT_FEDAYKIN_FREMEN" ReplacesUnitType="UNIT_SWORDSMAN"/>
 	</UnitReplaces>
 	<Tags>
 		<Row Tag="CLASS_CELTIC_WARRIOR" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_FEDAYKIN_FREMEN" Vocabulary="ABILITY_CLASS"/>
 	</Tags>
 	<TypeTags>
 		<Row Type="UNIT_CELTIC_WARRIOR"		Tag="CLASS_CELTIC_WARRIOR"/>
 		<Row Type="UNIT_CELTIC_WARRIOR"		Tag="CLASS_MELEE"/>
+		<Row Type="UNIT_FEDAYKIN_FREMEN"		Tag="CLASS_FEDAYKIN_FREMEN"/>
+		<Row Type="UNIT_FEDAYKIN_FREMEN"		Tag="CLASS_MELEE"/>
 	</TypeTags>
 	<Units>
-		<Row UnitType="UNIT_CELTIC_WARRIOR" BaseMoves="6" Cost="20" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="3" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_CELTIC_WARRIOR_NAME" Description="LOC_UNIT_CELTIC_WARRIOR_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="0" Combat="45" TraitType="TRAIT_CIVILIZATION_UNIT_CELTIC_WARRIOR"/>
+		<Row UnitType="UNIT_CELTIC_WARRIOR" BaseMoves="6" Cost="20" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="3" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_CELTIC_WARRIOR_NAME" Description="LOC_UNIT_CELTIC_WARRIOR_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="1" Combat="45" TraitType="TRAIT_CIVILIZATION_UNIT_CELTIC_WARRIOR"/>
+		<Row UnitType="UNIT_FEDAYKIN_FREMEN" BaseMoves="3" Cost="90" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="3" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_FEDAYKIN_FREMEN_NAME" Description="LOC_UNIT_FEDAYKIN_FREMEN_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="1" Combat="55" MandatoryObsoleteTech="TECH_REPLACEABLE_PARTS" PrereqTech="TECH_IRON_WORKING" StrategicResource="RESOURCE_IRON" TraitType="TRAIT_LEADER_UNIT_FEDAYKIN_FREMEN"/>
 	</Units>
 	<UnitUpgrades>
 		<Row Unit="UNIT_CELTIC_WARRIOR" UpgradeUnit="UNIT_MUSKETMAN"/>
+		<Row Unit="UNIT_FEDAYKIN_FREMEN" UpgradeUnit="UNIT_INFANTRY"/>
 	</UnitUpgrades>
 	<Unit_BuildingPrereqs>
 	</Unit_BuildingPrereqs>

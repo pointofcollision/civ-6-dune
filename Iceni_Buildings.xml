@@ -28,7 +28,6 @@
 		<Row BuildingType="BUILDING_CITADEL" YieldType="YIELD_SCIENCE" YieldChange="1"/>
 		<Row BuildingType="BUILDING_CITADEL" YieldType="YIELD_FAITH" YieldChange="1"/>
 		<Row BuildingType="BUILDING_CITADEL" YieldType="YIELD_GOLD" YieldChange="1"/>
-		<Row BuildingType="BUILDING_CITADEL" YieldType="YIELD_CULTURE" YieldChange="1"/>
 		<Row BuildingType="BUILDING_CITADEL" YieldType="YIELD_FOOD" YieldChange="2"/>
 		<Row BuildingType="BUILDING_IDOL_SCIENCE" YieldType="YIELD_SCIENCE" YieldChange="5"/>
 		<Row BuildingType="BUILDING_IDOL_GOLD" YieldType="YIELD_GOLD" YieldChange="5"/>

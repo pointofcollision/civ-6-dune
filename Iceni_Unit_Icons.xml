@@ -17,5 +17,7 @@
 	<IconDefinitions>
 		<Row Name="ICON_UNIT_CELTIC_WARRIOR" Atlas="ICON_ATLAS_ICENI_UNITS" Index="0"/>
 		<Row Name="ICON_UNIT_CELTIC_WARRIOR_PORTRAIT" Atlas="ICON_ATLAS_ICENI_UNIT_PORTRAITS" Index="0"/>
+		<Row Name="ICON_UNIT_FREMEN" Atlas="ICON_ATLAS_ICENI_UNITS" Index="0"/>
+		<Row Name="ICON_UNIT_FEDAYKIN_FREMEN" Atlas="ICON_ATLAS_ICENI_UNIT_PORTRAITS" Index="0"/>
 	</IconDefinitions>
 </GameInfo>

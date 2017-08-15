@@ -4,10 +4,11 @@
 		<Row Type="IMPROVEMENT_SIETCH" Kind="KIND_IMPROVEMENT"/>
 	</Types>
 	<Improvements>
-		<Row ImprovementType="IMPROVEMENT_SIETCH" Name="LOC_IMPROVEMENT_SIETCH_NAME" Description="LOC_IMPROVEMENT_SIETCH_DESCRIPTION" Icon="ICON_IMPROVEMENT_KURGAN" PlunderType="PLUNDER_FAITH" PlunderAmount="125" PrereqTech="TECH_ANIMAL_HUSBANDRY" Buildable="true" Housing="2" TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_SIETCH"/>
+		<Row ImprovementType="IMPROVEMENT_SIETCH" Name="LOC_IMPROVEMENT_SIETCH_NAME" Description="LOC_IMPROVEMENT_SIETCH_DESCRIPTION" Icon="ICON_IMPROVEMENT_KURGAN" PlunderType="PLUNDER_FAITH" PlunderAmount="150" PrereqTech="TECH_ANIMAL_HUSBANDRY" Buildable="true" Housing="2" TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_SIETCH"/>
 	</Improvements>
 	<Improvement_ValidFeatures>
 		<Row ImprovementType="IMPROVEMENT_SIETCH" FeatureType="FEATURE_MARSH"/>
+		<Row ImprovementType="IMPROVEMENT_SIETCH" FeatureType="FEATURE_FLOODPLAINS"/>
 	</Improvement_ValidFeatures>
 	<Improvement_ValidTerrains>
 		<Row ImprovementType="IMPROVEMENT_SIETCH" TerrainType="TERRAIN_DESERT"/>
