@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Anton Strenger (Firaxis Games) -->
+<GameData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<LocalizedText>
+		<!-- Caratacus -->
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_BOUDICA_NAME" Language="en_US">
+			<Text>Caratacus</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_BOUDICA_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Probably the youngest son of the British statesman Cunobelin, and thus the younger brother of Adminius and Togodumnus. He seemed to have formed an attachment to his uncle Epaticcus, for he based his own coin issues - silver minims inscribed CARA - on those of his father's brother, and their distribution in lands formerly of the Atrebates, is closely similar in pattern to those of Epaticcus.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_BOUDICA_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text>It is quite possible that he accompanied him during his campaigns against Verica of the Atrebates from c.25AD until his death c.35AD. Following the enfeeblement of his father c.40AD, he supplanted his elder brother Adminius from his throne in Durovernon. He then joined forces with his other brother Togodumnus c.41AD to renew the campaign against Verica of the Atrebates, who had caused the death of his beloved uncle.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_BOUDICA_CHAPTER_HISTORY_PARA_3" Language="en_US">
+			<Text>He fought several battles against Aulus Plautius during the invasion of 43AD before retreating to Wales, where he organised the tribes, particularly the Silures and Ordovices against Rome. During the change in Roman administration in 47AD, Caratacus led the Silures in a well-timed attack deep into the Roman-held territory of Gloucestershire. The new governor, Ostorius Scapula, spent almost the entirety of his term in office fighting against Caratacus, finally beating him in an all-out confontation in mid-Wales in c.50AD.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_BOUDICA_CHAPTER_HISTORY_PARA_4" Language="en_US">
+			<Text>Caratacus fled into the territory of the Brigantes in the Pennines where he appealed for help from Queen Cartimandua. She betrayed and captured him, and honouring her agreement with emperor Claudius, dispatched him in chains to Scapula. He was sent in c.51AD as a captive to the emperor, where he so impressed the Senate with his defiant speech that he was allowed to live with his family in Rome.</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

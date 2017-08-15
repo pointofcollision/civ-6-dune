@@ -1,0 +1,8 @@
+<GameInfo>
+	<GlobalParameters>
+		<Update>
+			<Where Name="CITY_MAX_BUY_PLOT_RANGE"/>
+			<Set Value="3"/>
+		</Update>
+	</GlobalParameters>
+</GameInfo>

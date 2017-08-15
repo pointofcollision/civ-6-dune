@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- GameData1 -->
+<!-- Author: Rob -->
+<!-- DateCreated: 3/6/2017 5:36:20 PM -->
+<GameData>
+	<BaseGameText>
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_BOUDICCA_ANY">
+			<Text>Well met, fellow warrior. May we be allies in this turbulent world.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_BOUDICCA_ANY">
+			<Text>I the Queen of the Iceni, chosen of Prasutagus.  In me lives the will of my people and the soul of a King. What makes you think you are worthy?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_BOUDICCA_ANY">
+			<Text>I offer my friendship and with it the potential to forge an alliance in the future. What is your answer?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_BOUDICCA_ANY">
+			<Text>Thank-you! Accept this torc as a symbol of our new friendship!</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_BOUDICCA_ANY">
+			<Text>It's a pity; potentially we could have been allies in war.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_BOUDICCA_ANY">
+			<Text>Our chariots are ready and the torches burn bright. My daughters shall know the taste of your blood!</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_BOUDICCA_ANY">
+			<Text>You dare?! Have you forgotten the price paid by Londinium? Your streets will ring with the battle cries of my people.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_BOUDICCA_ANY">
+			<Text>You may have won our land and wealth, but my people are a proud one.  Our legacy will live on, and be hard forgotten.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_BOUDICCA_ANY">
+			<Text>Vile ruler, know you have won this war in name alone.  Your cities lie buried and your troops defeated.  I have my own victory.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_BOUDICCA_ANY">
+			<Text>I received the gifts from your trade delegation. I will remember your kindness.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_BOUDICCA_ANY">
+			<Text>Maybe some other time?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_BOUDICCA_ANY">
+			<Text>My diplomatic delegation brings you a small gift of potteryware from Venta Icenorum. Welcome them as you would welcome me.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_BOUDICCA_ANY">
+			<Text>Pray you do not anger me any further - my hounds have not hunted in quite some time.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_BOUDICCA_ANY">
+			<Text>You are a pauper. The world will know the truth! (Denounces You)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_BOUDICCA_ANY">
+			<Text>Be it known that you are now in the land of the Iceni. I am Boudicca, their chosen Queen. Do not underestimate me.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_BOUDICCA_ANY">
+			<Text>We have an city nearby. Would you like to visit? I'd like to introduce you to our craftsmen.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_BOUDICCA_ANY">
+			<Text>Continue, before I change my mind.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_BOUDICCA_ANY">
+			<Text>Venta Icenorum is my home; the Iceni have lived there for generations. I can tell you more if you tell me of your capital.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_BOUDICCA_ANY">
+			<Text>You wish to speak with me?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_BOUDICCA_ANY">
+			<Text>I am only interested in people who realise the importance of a large military. You are obviously one of them.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_BOUDICCA_REASON_ANY">
+			<Text>(You have a large standing army.)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_BOUDICCA_ANY">
+			<Text>What treachery is this? By Andraste's might, the lamentation of your defeated peoples will be a sweet lullaby to my daughters' ears.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_BOUDICCA_REASON_ANY">
+			<Text>(You have declared a surprise war on Boucicca or attacked her home continent.)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_BOUDICCA_ANY">
+			<Text>I choose my allies carefully, and I have found you worthy.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_BOUDICCA_ANY">
+			<Text>Let us join our forces together and reap the rewards. What is your answer?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_BOUDICCA_ANY">
+			<Text>What makes you think you are worthy to reject a deal from me?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_BOUDICCA_ANY">
+			<Text>I must admit, I would much rather be at peace with you.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_BOUDICCA_ANY">
+			<Text>Do you take me for a simpleton? Leave this place.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_BOUDICCA_ANY">
+			<Text>As much as I wish for your destruction, I believe we can set aside our differences for a small amount of time. Do you agree?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_BOUDICCA_ANY">
+			<Text>You may pass into Iceni lands, provided you respect our ancient heritage.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_BOUDICCA_ANY">
+			<Text>Did you think I would not notice your army at my borders? I would suggest you move them.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_ICENI_CONTINENT_ATTACKED">
+			<Text>Boudicca hates attacks on civs based on her continent.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_BACKSTAB_BOUDICCA_SURPRISE_WAR">
+			<Text>Boudicca dislikes people who declare surprise wars.</Text>
+		</Row>
+	</BaseGameText>
+</GameData>

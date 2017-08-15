@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!--Civilizations/Leaders -->
+		<Row Tag="LOC_CIVILIZATION_ICENI_NAME" Language="en_US">
+			<Text>Atriedes</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_ICENI_DESCRIPTION" Language="en_US">
+			<Text>Atreides</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_ICENI_ADJECTIVE" Language="en_US">
+			<Text>Atriedes</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_BOUDICCA_NAME" Language="en_US">
+			<Text>Muad'Dib</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_BOUDICCA_UPRISING_NAME" Language="en_US">
+			<Text>Muad'Dib's Uprising</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_BOUDICCA_UPRISING_DESCRIPTION" Language="en_US">
+			<Text>Muad'Dib aims to have a large standing army and likes other leaders of the same ilk. He dislikes civilizations who attack his home continent and hates suprise wars being declared upon him.</Text>
+		</Row>
+		<Row Tag="LOC_LOADING_INFO_LEADER_BOUDICCA" Language="en_US">
+			<Text>Your enemies secrets lay open before you, great Kwisatz Haderach of the Atriedes line. Your rule will become a legend for others to follow, hoping to measure up in some small way to the titanic figure you take within myth. In all corners of the empire, the name Paul Muad'Dib is never forgotten.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_ICKNIELD_WAY_NAME" Language="en_US">
+			<Text>Sareer</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_ICKNIELD_WAY_DESCRIPTION" Language="en_US">
+			<Text>Capital has +1 to all yields (+2 [ICON_Food] Food), and +1 [ICON_Housing] Housing. +2 [ICON_Faith] Faith and +2 [ICON_Science] Science from desert tiles in the capital.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_ANDRASTE_NAME" Language="en_US">
+			<Text>Kwisatz Haderach</Text>
+		</Row>
+		<Row Tag="LOC_IMPROVEMENT_SIETCH_NAME" Language="en_US">
+			<Text>Sietch</Text>
+		</Row>
+		<Row Tag="LOC_IMPROVEMENT_SIETCH_DESCRIPTION" Language="en_US">
+			<Text>Atriedes' Unique improvement, gives +1 [ICON_Culture] Culture, +1 [ICON_Faith] Faith, +1 [ICON_Food] Food, and +1 [ICON_Production] Production, as well as +2 [ICON_Housing] Housing. Can be constructed on desert/tundra or desert hill tiles once the Animal Husbandry tech has been researched. Plunderable for large amounts of faith.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_ANDRASTE_DESCRIPTION" Language="en_US">
+			<Text>4 levels of [ICON_VisLimited] Diplomatic Visibility more than normal with other civilizations met.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_CITADEL_DESCRIPTION" Language="en_US">
+			<Text>The Arrakeen fortress that Muad'Dib spent his days as emperor in, this building adds +1 to all yields</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_CITADEL_NAME" Language="en_US">
+			<Text>The Keep</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_IDOL_SCIENCE_NAME" Language="en_US">
+			<Text>Idol of Enlightenment</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_IDOL_SCIENCE_DESCRIPTION" Language="en_US">
+			<Text>A towering figure protruding from the earth, this idol fills those who view it with a profound sense of understanding for the world around them. +5 [ICON_Science] Science and +10% [ICON_Science] Science in this city</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_IDOL_GOLD_NAME" Language="en_US">
+			<Text>Idol of Fortune</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_IDOL_GOLD_DESCRIPTION" Language="en_US">
+			<Text>A shady figure whose face is obscured by a cowl, this idol elicits great fortune for those who control it. +5 [ICON_Gold] Gold and +10% [ICON_Gold] Gold in this city</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_IDOL_CULTURE_NAME" Language="en_US">
+			<Text>Idol of Philosophy</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_IDOL_CULTURE_DESCRIPTION" Language="en_US">
+			<Text>A wise figure bending down to nurture wonder in those around him, this idol elicits awakens man's inner curiosity. +5 [ICON_Culture] Culture and +10% [ICON_Culture] Culture in this city</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_IDOL_FOOD_NAME" Language="en_US">
+			<Text>Idol of Sustenance</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_IDOL_FOOD_DESCRIPTION" Language="en_US">
+			<Text>A pragmatic figure with a hunter's pack, this idol helps to prepare its masters for the harsh realities of the wilderness. +5 [ICON_Food] Food and +10% [ICON_Food] Food in this city. +1 [ICON_Food] Food from tiles adjacent to farms in this city</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_IDOL_FAITH_NAME" Language="en_US">
+			<Text>Idol of Belief</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_IDOL_FAITH_DESCRIPTION" Language="en_US">
+			<Text>A stalwart figure alone among the trees, this idol helps gives man the strength to control his own destiny. +5 [ICON_Faith] Faith and +10% [ICON_Faith] Faith in this city</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_IDOL_PRODUCTION_NAME" Language="en_US">
+			<Text>Idol of Power</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_IDOL_PRODUCTION_DESCRIPTION" Language="en_US">
+			<Text>An enigmatic figure hunched over a fiery anvil, this idol provides what man most hungers for: power. +5 [ICON_Production] Production and +10% [ICON_Production] Production in this city</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_ANDRASTE_NAME" Language="en_US">
+			<Text>Shrine to Muad'Dib</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_ANDRASTE_DESCRIPTION" Language="en_US">
+			<Text>The Shrine to Muad'Dib is the Unique Building for the Atriedes, replacing the regular Shrine. It has all the features of the Shrine, but also grants +1 [ICON_Culture] and +2 Great General points per turn.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_CELTIC_WARRIOR_NAME" Language="en_US">
+			<Text>Fremen</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING__NAME" Language="en_US">
+			<Text>The Keep</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_CELTIC_WARRIOR_DESCRIPTION" Language="en_US">
+			<Text>The Fremen is the Atriedes's Unique Unit. It replaces the warrior and has +3 movement and ignores hill terrain when moving, as well as +10 [ICON_Strength] Combat Strength. Costs 0 Maintainance.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_CELTIC_WARRIOR_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>The Celts were a warrior culture. Fighters were admired as heroes and courage in the battleground was an important virtue. The Celtic elite fighters functioned as role models, to inspire other warriors with their courage.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_CELTIC_WARRIOR_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text>The Celts cut off the heads of killed enemies and collected them. It was considered a spiritual gesture, which often also appears in other cultures. The head was valued by the Celts as the seat of life, emotions and the soul. He who had captured a head attained the strength of the fallen enemy. Such trophies were bound to their horse or fastened to their belts, a practice that also served to cause fear in their enemies.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_CELTIC_WARRIOR_CHAPTER_HISTORY_PARA_3" Language="en_US">
+			<Text>One of the main motivations of Celtic warriors was the pursuit of glory and to this end the Celts loved exhibition when in battle. Thus there are legends of a Celtic ruler who drove a silver chariot into battle. Naturally silver is very soft and rather unsuitable for a chariot, but the hostile war bands took to flight at the sight of it. Warriors often painted themselves with woed, a blue die, or used war cries in order to intimidate their enemies. Celtic warriors would also wear horned helmets or helmets topped with horse tails into the battle to intimidate their enemies and make themselves appear taller. A helmet was found crowned with a metal raven. When the wearer ran the metal wings of the raven would flap and strike the helm. This is an allusion on the Celtic mythology in which the death goddess gets the souls of the fallen warriors in shape of a raven.</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_ICENI_CITY_1" Language="en_US">
+			<Text>The Sareer</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_ICENI_CITY_2" Language="en_US">
+			<Text>Sietch Tabr</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_ICENI_CITY_3" Language="en_US">
+			<Text>Sietch Valum</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_ICENI_CITY_4" Language="en_US">
+			<Text>Sietch Morthaim</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_ICENI_CITY_5" Language="en_US">
+			<Text>Arrakis</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_ICENI_CITY_6" Language="en_US">
+			<Text>House Atreides</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_ICENI_CITY_7" Language="en_US">
+			<Text>House Harkonnen</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_ICENI_CITY_8" Language="en_US">
+			<Text>Landsraad Convention</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_ICENI_CITY_9" Language="en_US">
+			<Text>House Corrino</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_ICENI_CITY_10" Language="en_US">
+			<Text>Jacuruntu</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_ICENI_CITY_11" Language="en_US">
+			<Text>Stanton Chair</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_ICENI_CITY_12" Language="en_US">
+			<Text>Narford</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_ICENI_CITY_13" Language="en_US">
+			<Text>Grimston</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_ICENI_CITY_14" Language="en_US">
+			<Text>Wilton</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_ICENI_CITY_15" Language="en_US">
+			<Text>Camboritum</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_ICENI_CITY_16" Language="en_US">
+			<Text>Yarmouth</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_ICENI_CITY_17" Language="en_US">
+			<Text>Pensthorpe</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_ICENI_CITY_18" Language="en_US">
+			<Text>Cromer</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_ICENI_CITY_19" Language="en_US">
+			<Text>Lodden</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_ICENI_CITY_20" Language="en_US">
+			<Text>Bungay</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_ICENI_CITY_21" Language="en_US">
+			<Text>Alby Hill</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_ICENI_CITY_22" Language="en_US">
+			<Text>Diss</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_ICENI_CITY_23" Language="en_US">
+			<Text>Bayfield</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_ICENI_CITY_24" Language="en_US">
+			<Text>Hoveton</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_ICENI_CITY_25" Language="en_US">
+			<Text>Neatishead</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_ICENI_CITY_26" Language="en_US">
+			<Text>Burnham Market</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_ICENI_CITY_27" Language="en_US">
+			<Text>Mannington</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_ICENI_CITY_28" Language="en_US">
+			<Text>Sheringham</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_ICENI_CITY_29" Language="en_US">
+			<Text>Blakeney Point</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_ICENI_CITY_30" Language="en_US">
+			<Text>Halvergate</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_ICENI_CITY_31" Language="en_US">
+			<Text>Wolterton</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_ICENI_CITY_32" Language="en_US">
+			<Text>Stody</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_ICENI_CITY_33" Language="en_US">
+			<Text>Morston</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_ICENI_CITY_34" Language="en_US">
+			<Text>Walsingham</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_ICENI_CITY_35" Language="en_US">
+			<Text>Aylsham</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_ICENI_CITY_36" Language="en_US">
+			<Text>Downham Market</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_ICENI_CITY_37" Language="en_US">
+			<Text>Kings Lynn</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_ICENI_CITY_38" Language="en_US">
+			<Text>Wisbech</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_ICENI_CITY_39" Language="en_US">
+			<Text>Attleborough</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_ICENI_CITY_40" Language="en_US">
+			<Text>Holt</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

@@ -1,0 +1,2 @@
+a mod I have tinkered with for civ 6, right now this is just a series of changes I have made to the existing Iceni mod (credit to Rob (R8XFT) from the civfanatics forums). 
+Goal is to add a series of civilizations and wonders that have to do with the Dune canonical universe, a science fiction series by Frank Herbert, and a classic of the genre.

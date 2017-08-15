@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameInfo>
+	<Kinds>
+		<InsertOrIgnore Kind="KIND_TRAIT"/>
+	</Kinds>
+	<Types>
+		<Row Type="TRAIT_AGENDA_BOUDICCA_UPRISING" Kind="KIND_TRAIT"/>
+	</Types>
+	 <Traits>
+		<Row TraitType="TRAIT_AGENDA_BOUDICCA_UPRISING" Name="LOC_PLACEHOLDER" Description="LOC_PLACEHOLDER"/>
+	</Traits>
+	<Agendas>
+		<Row AgendaType="AGENDA_BOUDICCA_UPRISING" Name="LOC_AGENDA_BOUDICCA_UPRISING_NAME" Description="LOC_AGENDA_BOUDICCA_UPRISING_DESCRIPTION"/>
+	</Agendas>
+	<AgendaTraits>
+		<Row AgendaType="AGENDA_BOUDICCA_UPRISING" TraitType="TRAIT_AGENDA_BOUDICCA_UPRISING"/>
+	</AgendaTraits>
+	<TraitModifiers>
+		<Row TraitType="TRAIT_AGENDA_BOUDICCA_UPRISING" ModifierId="AGENDA_HIGH_STANDING_ARMY"/>
+		<Row TraitType="TRAIT_AGENDA_BOUDICCA_UPRISING" ModifierId="AGENDA_ICENI_CONTINENT_ATTACKED"/>
+		<Row TraitType="TRAIT_AGENDA_BOUDICCA_UPRISING" ModifierId="AGENDA_BACKSTAB_BOUDICCA_SURPRISE_WAR"/>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>AGENDA_ICENI_CONTINENT_ATTACKED</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_ATTACKED_CONTINENT</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_BACKSTAB_BOUDICCA_SURPRISE_WAR</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_DECLARES_SURPRISE_WAR</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>AGENDA_ICENI_CONTINENT_ATTACKED</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>-12</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_ICENI_CONTINENT_ATTACKED</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_WARNING_LEADER_BOUDICCA_REASON_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_ICENI_CONTINENT_ATTACKED</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_ICENI_CONTINENT_ATTACKED</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_BACKSTAB_BOUDICCA_SURPRISE_WAR</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>-10</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_BACKSTAB_BOUDICCA_SURPRISE_WAR</ModifierId>
+			<Name>ReductionTurns</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_BACKSTAB_BOUDICCA_SURPRISE_WAR</ModifierId>
+			<Name>ReductionValue</Name>
+			<Value>-1</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_BACKSTAB_BOUDICCA_SURPRISE_WAR</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_WARNING_LEADER_BOUDICCA_REASON_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_BACKSTAB_BOUDICCA_SURPRISE_WAR</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_BACKSTAB_BOUDICCA_SURPRISE_WAR</Value>
+		</Row>
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="AGENDA_ICENI_CONTINENT_ATTACKED" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_BACKSTAB_BOUDICCA_SURPRISE_WAR" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+	</ModifierStrings>
+</GameInfo>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<Types>
+		<Row Type="IMPROVEMENT_SIETCH" Kind="KIND_IMPROVEMENT"/>
+	</Types>
+	<Improvements>
+		<Row ImprovementType="IMPROVEMENT_SIETCH" Name="LOC_IMPROVEMENT_SIETCH_NAME" Description="LOC_IMPROVEMENT_SIETCH_DESCRIPTION" Icon="ICON_IMPROVEMENT_KURGAN" PlunderType="PLUNDER_FAITH" PlunderAmount="125" PrereqTech="TECH_ANIMAL_HUSBANDRY" Buildable="true" Housing="2" TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_SIETCH"/>
+	</Improvements>
+	<Improvement_ValidFeatures>
+		<Row ImprovementType="IMPROVEMENT_SIETCH" FeatureType="FEATURE_MARSH"/>
+	</Improvement_ValidFeatures>
+	<Improvement_ValidTerrains>
+		<Row ImprovementType="IMPROVEMENT_SIETCH" TerrainType="TERRAIN_DESERT"/>
+		<Row ImprovementType="IMPROVEMENT_SIETCH" TerrainType="TERRAIN_TUNDRA"/>
+		<Row ImprovementType="IMPROVEMENT_SIETCH" TerrainType="TERRAIN_DESERT_HILLS"/>
+	</Improvement_ValidTerrains>
+	<Improvement_ValidBuildUnits>
+		<Row ImprovementType="IMPROVEMENT_SIETCH" UnitType="UNIT_BUILDER"/>
+	</Improvement_ValidBuildUnits>
+	<Improvement_YieldChanges>
+		<Row ImprovementType="IMPROVEMENT_SIETCH" YieldType="YIELD_CULTURE" YieldChange="1"/>
+		<Row ImprovementType="IMPROVEMENT_SIETCH" YieldType="YIELD_FAITH" YieldChange="1"/>
+		<Row ImprovementType="IMPROVEMENT_SIETCH" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+		<Row ImprovementType="IMPROVEMENT_SIETCH" YieldType="YIELD_FOOD" YieldChange="1"/>
+	</Improvement_YieldChanges>
+</GameInfo>

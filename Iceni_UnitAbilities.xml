@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameInfo>
+	<Types>
+		<Row Type="ABILITY_CELTIC_WARRIOR" Kind="KIND_ABILITY"/>
+	</Types>
+	<TypeTags>
+		<Row Type="ABILITY_CELTIC_WARRIOR"	Tag="CLASS_CELTIC_WARRIOR"/>
+	</TypeTags>
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_CELTIC_WARRIOR" Name="LOC_ABILITY_CELTIC_WARRIOR_NAME" Description="LOC_ABILITY_CELTIC_WARRIOR_DESCRIPTION"/>
+	</UnitAbilities>
+	<UnitAbilityModifiers>
+		<Row>
+			<UnitAbilityType>ABILITY_CELTIC_WARRIOR</UnitAbilityType>
+			<ModifierId>CELTIC_WARRIOR_FOREST_MOVEMENT</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>CELTIC_WARRIOR_FOREST_MOVEMENT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_IGNORE_TERRAIN_COST</ModifierType>
+		</Row>
+  </Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>CELTIC_WARRIOR_FOREST_MOVEMENT</ModifierId>
+			<Name>Ignore</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>CELTIC_WARRIOR_FOREST_MOVEMENT</ModifierId>
+			<Name>Type</Name>
+			<Value>HILLS</Value>
+		</Row>
+	</ModifierArguments>
+</GameInfo>

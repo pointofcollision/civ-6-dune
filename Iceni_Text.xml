@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- Pedia text (historical context) about the new building. -->
+		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_ANDRASTE_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Andraste, also known as Andrasta or Andred, was, according to the Roman historian Dio Cassius, an Icenic war goddess invoked by Boudica in her fight against the Roman occupation of Britain in AD 60. She may be the same as Andate, mentioned later by the same source, and described as "their name for Victory": i.e., the goddess Victoria. Thayer asserts that she may be related to Andarta also. The goddess Victoria is related to Nike, Bellona, Magna Mater (Great Mother), Cybele, and Vacuna—goddesses who are often depicted on chariots.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_ANDRASTE_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text>Many Neopagan sources describe the hare as sacred to Andraste. This seems to derive from a misreading of the passage in Dio Cassius in which Boudica releases a hare from her gown:[NEWLINE]"Let us, therefore, go against the Romans, trusting boldly to good fortune. Let us show them that they are hares and foxes trying to rule over dogs and wolves."[NEWLINE][NEWLINE]When Boudicca had finished speaking, she employed a species of divination, letting a hare escape from the fold of her dress; and since it ran on what they considered the auspicious side, the whole multitude shouted with pleasure, and Boudicca, raising her hand toward heaven, said: "I thank you, Andraste, and call upon you as woman speaking to woman ... I beg you for victory and preservation of liberty."</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_ANDRASTE_CHAPTER_HISTORY_PARA_3" Language="en_US">
+			<Text>The hare's release is described as a technique of divination, with an augury drawn from the direction in which it runs. This appears to be similar to the Roman methods of divination which ascribe meaning to the directions from which birds fly, with the left side being unfavorable (sinistra) and the right side favorable.</Text>
+		</Row>
+		<!-- Leader specific historical text. -->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_BOUDICCA_CHAPTER_HISTORY_PARA_1" Language="en_US">
+				<Text>Boudicca, legendary warrior queen of the Celtic Iceni tribe, is noted in history for decimating a number of Roman settlements while leading an uprising of Celtic tribes against the might of the Roman army occupying England in the 1st century AD.  Although historical records from this period are limited, mainly relying on the reports of Roman historians Tacitus and Cassius Dio, the story of Boudicca's uprising is generally accepted to have gone something like this: [NEWLINE][NEWLINE]Boudicca's husband, King Prasutagus of Iceni, had long been an ally to the Romans and maintained a sovereign rule over his people during the Roman conquest of Britain. Upon his death, he is said to have named Boudicca and their two daughters as joint-heirs, in the hopes of maintaining the rights and nobility of his family line. With little regard for their old friends, the Romans swiftly moved to annex the Iceni territory, and it can be said with certainty that the Romans' brutality in the matter was unwavering. Boudicca was publicly flogged.[NEWLINE][NEWLINE]The outrage spurred by the Romans' disrespect and brutishness towards the Iceni led Boudicca and her people to organize a rebellion with the assistance of neighboring tribes, particularly the Trinovantes. Boudicca gathered a huge force, estimated at 70,000 or more, and marched to the Roman colony of Camulodunum. The Romans, unprepared for such a vast assault, were caught off guard and found no mercy at the hands of the rebellion. The city of Camulodunum was besieged and destroyed, and the rebel army proceeded next to the city of Londinium, destroying everything of value to the Romans in their wake. Verulamium was the 3rd and final city crushed during Boudicca's uprising, burned to the ground and it's Romans citizens massacred. In all, Boudicca's army is said to have killed over 80,000 Romans and pro-Roman Britons.[NEWLINE][NEWLINE]Meeting at an unknown site in the English Midlands in 61 AD, the Roman Army and its collected legions finally faced the rebellious tribal force head-on.  Unfortunately for Boudicca, the Romans' extensive training and tactics would be the undoing of the uprising. Women and children, accompanying the rebel supply wagons, are said to have come to observe the battle and provide support. The presence of these observers on the field, however, would leave the rebels with little room to maneuver. The uprising was crushed, and some 70,000 to 80,000 rebels were killed in the ensuing battle and its aftermath. It is believed (although no means of confirmation exists) that Boudicca died by her own hand sometime shortly after the battle, the most common theory being that she consumed poison to avoid capture.</Text>
+		</Row>
+		<!-- Civilization specific historical text. -->
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_ICENI_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>The Iceni or Eceni were a Brythonic tribe who inhabited an area of Britain corresponding roughly to the modern-day county of Norfolk between the 1st century BC and 1st century AD. The Cenimagni, who surrendered to Julius Caesar during his second expedition to Britain in 54BC, may have been a branch of the Iceni.[NEWLINE][NEWLINE]Tacitus records that the Iceni were not conquered in the Claudian invasion of AD43, but had come to a voluntary alliance with the Romans. However they rose against them in AD47 after the governor, Publius Ostorius Scapula, threatened to disarm them. They were defeated by Ostorius in a fierce battle at a fortified place, but were allowed to retain their independence. The site of the battle may have been Stonea Camp in Cambridgeshire.[NEWLINE][NEWLINE]A second, more serious, uprising took place in AD61. Prasutagus, the wealthy, pro-Roman Icenian king, had died. It was common practice for a Roman client king to leave his kingdom to Rome on his death, but Prasutagus had attempted to preserve his line by bequeathing his kingdom jointly to the Emperor and his own daughters. The Romans ignored this, and the procurator Catus Decianus seized his entire estate. Boudicca led a revolt; see her history for details.[NEWLINE][NEWLINE]The Iceni are recorded as a civitas of Roman Britain in Ptolemy's Geography, which names Venta Icenorum as a town of theirs. Venta, which is also mentioned in the Ravenna Cosmography, and the Antonine Itinerary, was a settlement near the village of Caister Saint Edmunds, some 5 miles south of present-day Norwich, and a mile or two from the Bronze Age Henge at Arminghall.</Text>
+		</Row>
+		<!-- Civilization items-->
+		<Row Tag="LOC_TRAIT_CIVILIZATION_ICKNIELD_WAY_NAME" Language="en_US">
+			<Text>The Icknield Way</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_ICKNIELD_WAY_DESCRIPTION" Language="en_US">
+			<Text>One Diplomacy policy slot in the current government is converted to a Wildcard slot. Camps trigger a Culture Bomb.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_ANDRASTE_NAME" Language="en_US">
+			<Text>Shrine to Andraste</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_ANDRASTE_DESCRIPTION" Language="en_US">
+			<Text>The Shrine to Andraste is the Unique Building for the Iceni, replacing the regular Shrine. It has all the features of the Shrine, but also grants +1 Culture and +2 Great General points per turn.</Text>
+		</Row>
+		<!-- Civilization -->
+		<Row Tag="LOC_CIVILIZATION_ICENI_NAME" Language="en_US">
+			<Text>Iceni</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_ICENI_DESCRIPTION" Language="en_US">
+			<Text>Iceni</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_ICENI_ADJECTIVE" Language="en_US">
+			<Text>Iceni</Text>
+		</Row>
+		<!-- Agenda -->
+		<Row Tag="LOC_AGENDA_BOUDICCA_UPRISING_NAME" Language="en_US">
+			<Text>Boudicca's Uprising</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_BOUDICCA_UPRISING_DESCRIPTION" Language="en_US">
+			<Text>Boudicca aims to have a large standing army and likes other leaders of the same ilk. She dislikes civilizations who attack her home continent and hates suprise wars being declared upon her.</Text>
+		</Row>
+		<!-- Civilization City Names-->
+		<Row Tag="LOC_CIVLIZATION_ICENI_CITY_1" Language="en_US">
+			<Text>Venta Icenorum</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_ICENI_CITY_2" Language="en_US">
+			<Text>Caister</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_ICENI_CITY_3" Language="en_US">
+			<Text>Thetford</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_ICENI_CITY_4" Language="en_US">
+			<Text>Snettisham</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_ICENI_CITY_5" Language="en_US">
+			<Text>Ixworth</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_ICENI_CITY_6" Language="en_US">
+			<Text>Toftrees</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_ICENI_CITY_7" Language="en_US">
+			<Text>Glayton Thorpe</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_ICENI_CITY_8" Language="en_US">
+			<Text>Woodcock Hill</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_ICENI_CITY_9" Language="en_US">
+			<Text>Brettenham</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_ICENI_CITY_10" Language="en_US">
+			<Text>Cockley Clay</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_ICENI_CITY_11" Language="en_US">
+			<Text>Stanton Chair</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_ICENI_CITY_12" Language="en_US">
+			<Text>Narford</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_ICENI_CITY_13" Language="en_US">
+			<Text>Grimston</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_ICENI_CITY_14" Language="en_US">
+			<Text>Wilton</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_ICENI_CITY_15" Language="en_US">
+			<Text>Camboritum</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_ICENI_CITY_16" Language="en_US">
+			<Text>Yarmouth</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_ICENI_CITY_17" Language="en_US">
+			<Text>Pensthorpe</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_ICENI_CITY_18" Language="en_US">
+			<Text>Cromer</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_ICENI_CITY_19" Language="en_US">
+			<Text>Lodden</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_ICENI_CITY_20" Language="en_US">
+			<Text>Bungay</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_ICENI_CITY_21" Language="en_US">
+			<Text>Alby Hill</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_ICENI_CITY_22" Language="en_US">
+			<Text>Diss</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_ICENI_CITY_23" Language="en_US">
+			<Text>Bayfield</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_ICENI_CITY_24" Language="en_US">
+			<Text>Hoveton</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_ICENI_CITY_25" Language="en_US">
+			<Text>Neatishead</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_ICENI_CITY_26" Language="en_US">
+			<Text>Burnham Market</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_ICENI_CITY_27" Language="en_US">
+			<Text>Mannington</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_ICENI_CITY_28" Language="en_US">
+			<Text>Sheringham</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_ICENI_CITY_29" Language="en_US">
+			<Text>Blakeney Point</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_ICENI_CITY_30" Language="en_US">
+			<Text>Halvergate</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_ICENI_CITY_31" Language="en_US">
+			<Text>Wolterton</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_ICENI_CITY_32" Language="en_US">
+			<Text>Stody</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_ICENI_CITY_33" Language="en_US">
+			<Text>Morston</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_ICENI_CITY_34" Language="en_US">
+			<Text>Walsingham</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_ICENI_CITY_35" Language="en_US">
+			<Text>Aylsham</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_ICENI_CITY_36" Language="en_US">
+			<Text>Downham Market</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_ICENI_CITY_37" Language="en_US">
+			<Text>Kings Lynn</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_ICENI_CITY_38" Language="en_US">
+			<Text>Wisbech</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_ICENI_CITY_39" Language="en_US">
+			<Text>Attleborough</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_ICENI_CITY_40" Language="en_US">
+			<Text>Holt</Text>
+		</Row>
+    <!-- Leader Ability -->
+		<Row Tag="LOC_TRAIT_LEADER_ANDRASTE_NAME" Language="en_US">
+			<Text>Hare of Andraste</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_ANDRASTE_DESCRIPTION" Language="en_US">
+			<Text>Combat victories provide faith equal to 50% of the base strength of the defeated unit.</Text>
+		</Row>
+		<!-- Dawn of Man -->
+		<Row Tag="LOC_LOADING_INFO_LEADER_BOUDICCA" Language="en_US">
+			<Text>Your enemies have respect for you, fierce and vengeful Warrior Queen! You will secure your throne and sovereign rule, leading the Iceni tribe from your chariot. Legends will be told of you rallying your people against any aggressors that should impede your homeland. Ride on, Queen Boudicca, and may you put an end to any who betray you.</Text>
+		</Row>
+		<!-- Celtic Warrior -->
+		<Row Tag="LOC_UNIT_CELTIC_WARRIOR_NAME" Language="en_US">
+			<Text>Celtic Warrior</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_CELTIC_WARRIOR_DESCRIPTION" Language="en_US">
+			<Text>The Celtic Warrior is the Iceni's Unique Unit. It is slightly stronger and cheaper to build and maintain than the Swordsman it replaces and does not require iron. The Celtic Swordsman can be bought with [ICON_Faith] faith and ignores the Forest terrain cost.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_CELTIC_WARRIOR_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>The Celts were a warrior culture. Fighters were admired as heroes and courage in the battleground was an important virtue. The Celtic elite fighters functioned as role models, to inspire other warriors with their courage.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_CELTIC_WARRIOR_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text>The Celts cut off the heads of killed enemies and collected them. It was considered a spiritual gesture, which often also appears in other cultures. The head was valued by the Celts as the seat of life, emotions and the soul. He who had captured a head attained the strength of the fallen enemy. Such trophies were bound to their horse or fastened to their belts, a practice that also served to cause fear in their enemies.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_CELTIC_WARRIOR_CHAPTER_HISTORY_PARA_3" Language="en_US">
+			<Text>One of the main motivations of Celtic warriors was the pursuit of glory and to this end the Celts loved exhibition when in battle. Thus there are legends of a Celtic ruler who drove a silver chariot into battle. Naturally silver is very soft and rather unsuitable for a chariot, but the hostile war bands took to flight at the sight of it. Warriors often painted themselves with woed, a blue die, or used war cries in order to intimidate their enemies. Celtic warriors would also wear horned helmets or helmets topped with horse tails into the battle to intimidate their enemies and make themselves appear taller. A helmet was found crowned with a metal raven. When the wearer ran the metal wings of the raven would flap and strike the helm. This is an allusion on the Celtic mythology in which the death goddess gets the souls of the fallen warriors in shape of a raven.</Text>
+		</Row>
+		<!-- Unit Ability -->
+		<Row Tag="LOC_ABILITY_CELTIC_WARRIOR_NAME" Language="en_US">
+			<Text>Beorn</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_CELTIC_WARRIOR_DESCRIPTION" Language="en_US">
+			<Text>Ignores forest terrain cost</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

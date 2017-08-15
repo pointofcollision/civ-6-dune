@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="LEADER_BOUDICCA" Kind="KIND_LEADER"/>
+		<Row Type="FAITH_KILLS_TRAIT" Kind="KIND_TRAIT"/>
+	</Types>
+	<Leaders>
+		<Row LeaderType="LEADER_BOUDICCA" Name="LOC_LEADER_BOUDICCA_NAME" InheritFrom="LEADER_DEFAULT" SceneLayers="4"/>
+	</Leaders>
+	<LeaderTraits>
+		<Row LeaderType="LEADER_BOUDICCA" TraitType="FAITH_KILLS_TRAIT"/>
+	</LeaderTraits>
+	<Traits>
+		<Row TraitType="FAITH_KILLS_TRAIT" Name="LOC_TRAIT_LEADER_ANDRASTE_NAME" Description="LOC_TRAIT_LEADER_ANDRASTE_DESCRIPTION"/>
+	</Traits>
+	<TraitModifiers>
+		<Row TraitType="FAITH_KILLS_TRAIT" ModifierId="UNIQUE_LEADER_FAITH_KILLS"/>
+		<Row>
+			<TraitType>FAITH_KILLS_TRAIT</TraitType>
+			<ModifierId>UNIQUE_LEADER_ATRIEDES_ADD_VISIBILITY</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>UNIQUE_LEADER_ATRIEDES_ADD_VISIBILITY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADD_DIPLO_VISIBILITY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>UNIQUE_LEADER_FAITH_KILLS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_POST_COMBAT_YIELD</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>UNIQUE_LEADER_ATRIEDES_ADD_VISIBILITY</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		<Row>
+			<ModifierId>UNIQUE_LEADER_ATRIEDES_ADD_VISIBILITY</ModifierId>
+			<Name>Source</Name>
+			<Value>SOURCE_TRAIT</Value>
+		</Row>
+		<Row>
+			<ModifierId>UNIQUE_LEADER_ATRIEDES_ADD_VISIBILITY</ModifierId>
+			<Name>SourceType</Name>
+			<Value>DIPLO_SOURCE_FEMALE_ONLY</Value>
+		</Row>
+	</ModifierArguments>
+	<DiplomacyInfo>
+		<Row Type="LEADER_BOUDICCA" BackgroundImage="LEADER_BOUDICCA_ICENIFORT"/>
+	</DiplomacyInfo>
+	<HistoricalAgendas>
+		<Row LeaderType="LEADER_BOUDICCA" AgendaType="AGENDA_BOUDICCA_UPRISING"/>
+	</HistoricalAgendas>
+	<AiListTypes>
+		<Row ListType="BoudiccaCivics"/>
+		<Row ListType="BoudiccaTechs"/>
+		<Row ListType="BoudiccaWonders"/>
+	</AiListTypes>
+	<AiLists>
+		<Row ListType="BoudiccaWonders" LeaderType="FAITH_KILLS_TRAIT" System="Buildings"/>
+		<Row ListType="BoudiccaCivics" LeaderType="FAITH_KILLS_TRAIT" System="Civics"/>
+		<Row ListType="BoudiccaTechs" LeaderType="FAITH_KILLS_TRAIT" System="Technologies"/>
+	</AiLists>
+	<AiFavoredItems>
+		<Row ListType="BoudiccaWonders" Item="BUILDING_GREAT_LIGHTHOUSE"/>
+		<Row ListType="BoudiccaWonders" Item="BUILDING_TERRACOTTA_ARMY"/>
+		<Row ListType="BoudiccaWonders" Item="BUILDING_ALHAMBRA"/>
+		<Row ListType="BoudiccaWonders" Item="BUILDING_MONT_ST_MICHEL"/>
+		<Row ListType="BoudiccaWonders" Item="BUILDING_FORBIDDEN_CITY"/>
+		<Row ListType="BoudiccaCivics" Item="CIVIC_CRAFTSMANSHIP"/>
+		<Row ListType="BoudiccaCivics" Item="CIVIC_EARLY_EMPIRE"/>
+		<Row ListType="BoudiccaCivics" Item="CIVIC_DEFENSIVE_TACTICS"/>
+		<Row ListType="BoudiccaCivics" Item="CIVIC_FEUDALISM"/>
+		<Row ListType="BoudiccaCivics" Item="CIVIC_CIVIL_SERVICE"/>
+		<Row ListType="BoudiccaCivics" Item="CIVIC_DIPLOMATIC_SERVICE"/>
+		<Row ListType="BoudiccaCivics" Item="CIVIC_MOBILIZATION"/>
+		<Row ListType="BoudiccaTechs" Item="TECH_ANIMAL_HUSBANDRY"/>
+		<Row ListType="BoudiccaTechs" Item="TECH_ASTROLOGY"/>
+		<Row ListType="BoudiccaTechs" Item="TECH_BRONZE_WORKING"/>
+		<Row ListType="BoudiccaTechs" Item="TECH_IRON_WORKING"/>
+		<Row ListType="BoudiccaTechs" Item="TECH_HORSEBACK_RIDING"/>
+		<Row ListType="BoudiccaTechs" Item="TECH_CASTLES"/>
+		<Row ListType="BoudiccaTechs" Item="TECH_MILITARY_SCIENCE"/>
+		<Row ListType="BoudiccaTechs" Item="TECH_MILITARY_TACTICS"/>
+		<Row ListType="BoudiccaTechs" Item="TECH_STIRRUPS"/>
+	</AiFavoredItems>
+</GameData>
