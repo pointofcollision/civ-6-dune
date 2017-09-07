@@ -36,13 +36,13 @@
 			<Text>The Golden Path</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_GOLDEN_PATH_DESCRIPTION" Language="en_US">
-			<Text>-1 [ICON_Amenities] Amenities from Luxury Resources. Upon researching chemistry, cities get +50% [ICON_Gold] Gold, +50% [ICON_Production] Production, and +1 [ICON_Amenities] Amenities</Text>
+			<Text>-1 [ICON_Amenities] Amenities from Luxury Resources. Upon researching chemistry, cities get +35% [ICON_Gold] Gold, +35% [ICON_Production] Production, and +1 [ICON_Amenities] Amenities. Additionally, a unique building Legacy of Hwi Noree may be constructed which grants a unique land unit.</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_GOLDEN_PATH_NAME" Language="en_US">
 			<Text>The Golden Path</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_GOLDEN_PATH_DESCRIPTION" Language="en_US">
-			<Text>+50% [ICON_Gold] Gold and +50% [ICON_Production] Production</Text>
+			<Text>+35% [ICON_Gold] Gold and +35% [ICON_Production] Production</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_HWI_NOREE_NAME" Language="en_US">
 			<Text>Legacy of Hwi Noree</Text>
