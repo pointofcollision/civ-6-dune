@@ -151,7 +151,7 @@
 		<Row>
 			<ModifierId>PATH_GOLD</ModifierId>
 			<Name>Amount</Name>
-			<Value>50</Value>
+			<Value>35</Value>
 		</Row>
 		<Row>
 			<ModifierId>PATH_GOLD</ModifierId>
@@ -161,7 +161,7 @@
 		<Row>
 			<ModifierId>PATH_PRODUCTION</ModifierId>
 			<Name>Amount</Name>
-			<Value>50</Value>
+			<Value>35</Value>
 		</Row>
 		<Row>
 			<ModifierId>PATH_PRODUCTION</ModifierId>
