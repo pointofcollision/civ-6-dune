@@ -24,7 +24,7 @@
 		<Row BuildingType="BUILDING_IDOL_FOOD" Name="LOC_BUILDING_IDOL_FOOD_NAME" Description="LOC_BUILDING_IDOL_FOOD_DESCRIPTION" PrereqTech="TECH_ENGINEERING" PrereqDistrict="DISTRICT_AQUEDUCT" Cost="150" AdvisorType="ADVISOR_GENERIC" MaxWorldInstances="1" IsWonder="true" MaxPlayerInstances="1" />
 		<Row BuildingType="BUILDING_IDOL_FAITH" Name="LOC_BUILDING_IDOL_FAITH_NAME" Description="LOC_BUILDING_IDOL_FAITH_DESCRIPTION" PrereqTech="TECH_ASTROLOGY" PrereqDistrict="DISTRICT_HOLY_SITE" Cost="100" AdvisorType="ADVISOR_GENERIC" MaxWorldInstances="1" IsWonder="true" MaxPlayerInstances="1" />
 		<Row BuildingType="BUILDING_IDOL_PRODUCTION" Name="LOC_BUILDING_IDOL_PRODUCTION_NAME" Description="LOC_BUILDING_IDOL_PRODUCTION_DESCRIPTION" PrereqTech="TECH_APPRENTICESHIP" PrereqDistrict="DISTRICT_INDUSTRIAL_ZONE" Cost="500" AdvisorType="ADVISOR_GENERIC" MaxWorldInstances="1" IsWonder="true" MaxPlayerInstances="1" />
-		<Row BuildingType="BUILDING_HWI_NOREE" Name="LOC_BUILDING_HWI_NOREE_NAME" Description="LOC_BUILDING_HWI_NOREE_DESCRIPTION" PrereqTech="TECH_CHEMISTRY" PrereqDistrict="DISTRICT_CITY_CENTER" Cost="5" AdvisorType="ADVISOR_GENERIC" MaxWorldInstances="1" IsWonder="true" MaxPlayerInstances="1" TraitType="TRAIT_BUILDING_HWI_NOREE" />
+		<Row BuildingType="BUILDING_HWI_NOREE" Name="LOC_BUILDING_HWI_NOREE_NAME" Description="LOC_BUILDING_HWI_NOREE_DESCRIPTION" PrereqTech="TECH_CHEMISTRY" PrereqDistrict="DISTRICT_CITY_CENTER" Cost="450" AdvisorType="ADVISOR_GENERIC" MaxWorldInstances="1" IsWonder="true" MaxPlayerInstances="1" TraitType="TRAIT_BUILDING_HWI_NOREE" />
 	</Buildings>
 	<Building_YieldChanges>
 		<Row BuildingType="BUILDING_HWI_NOREE" YieldType="YIELD_FAITH" YieldChange="5"/>
