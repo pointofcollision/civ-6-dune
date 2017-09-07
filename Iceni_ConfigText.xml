@@ -116,6 +116,18 @@
 		<Row Tag="LOC_UNIT_WORM_DESCRIPTION" Language="en_US">
 			<Text>The Worm portion of Leto II's latent body, Shaitan is a unique unit with 150 [ICON_Strength] Combat strength, and can attack 3 times per turn. Granted upon completion of the Hwi Noree wonder only.</Text>
 		</Row>
+		<Row Tag="LOC_WORM_HILLS_MOVEMENT_NAME" Language="en_US">
+			<Text>God of the desert</Text>
+		</Row>
+		<Row Tag="LOC_WORM_HILLS_MOVEMENT_DESCRIPTION" Language="en_US">
+			<Text>Shaitan is not slowed by hills</Text>
+		</Row>
+		<Row Tag="LOC_WORM_ATTACKS_NAME" Language="en_US">
+			<Text>Unstoppable Maw</Text>
+		</Row>
+		<Row Tag="LOC_WORM_ATTACKS_DESCRIPTION" Language="en_US">
+			<Text>Attacks 2 extra times per turn</Text>
+		</Row>
 		<Row Tag="LOC_UNIT_FEDAYKIN_FREMEN_NAME" Language="en_US">
 			<Text>Fedaykin Death Commando</Text>
 		</Row>
