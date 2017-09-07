@@ -44,6 +44,12 @@
 		<Row Tag="LOC_BUILDING_GOLDEN_PATH_DESCRIPTION" Language="en_US">
 			<Text>+50% [ICON_Gold] Gold and +50% [ICON_Production] Production</Text>
 		</Row>
+		<Row Tag="LOC_BUILDING_HWI_NOREE_NAME" Language="en_US">
+			<Text>Legacy of Hwi Noree</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_HWI_NOREE_DESCRIPTION" Language="en_US">
+			<Text>Unique Building unlocked after researching chemistry, grants +5 [ICON_Faith] and one Shaitan unit upon completion</Text>
+		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_ICKNIELD_WAY_DESCRIPTION" Language="en_US">
 			<Text>Capital has +1 to all non-culture yields (+2 [ICON_Food] Food), and +1 [ICON_Housing] Housing. +1 [ICON_Faith] Faith and +1 [ICON_Science] Science from desert and desert hill tiles in the empire</Text>
 		</Row>
