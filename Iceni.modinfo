@@ -127,6 +127,14 @@
     <File>Textures/Boudicca64.tex</File>
     <File>Textures/Boudicca80.dds</File>
     <File>Textures/Boudicca80.tex</File>
+	 <File>Atriedes/muaddib256.dds</File>
+    <File>Atriedes/muaddib32.dds</File>
+    <File>Atriedes/muaddib45.dds</File>
+    <File>Atriedes/muaddib48.dds</File>
+    <File>Atriedes/muaddib50.dds</File>
+    <File>Atriedes/muaddib55.dds</File>
+    <File>Atriedes/muaddib64.dds</File>
+    <File>Atriedes/muaddib80.dds</File>
     <File>Textures/FALLBACK_NEUTRAL_BOUDICCA.dds</File>
     <File>Textures/FALLBACK_NEUTRAL_BOUDICCA.tex</File>
     <File>Textures/IceniUnit22.dds</File>

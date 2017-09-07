@@ -9,6 +9,14 @@
 		<Row Name="ICON_ATLAS_BOUDICCA" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="Boudicca64.dds"/>
 		<Row Name="ICON_ATLAS_BOUDICCA" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="Boudicca80.dds"/>
 		<Row Name="ICON_ATLAS_BOUDICCA" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="Boudicca256.dds"/>
+		<!-- <Row Name="ICON_ATLAS_BOUDICCA" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="muaddib32.dds"/>
+		<Row Name="ICON_ATLAS_BOUDICCA" IconSize="45"  IconsPerRow="1" IconsPerColumn="1" Filename="muaddib45.dds"/>
+		<Row Name="ICON_ATLAS_BOUDICCA" IconSize="48"  IconsPerRow="1" IconsPerColumn="1" Filename="muaddib48.dds"/>
+		<Row Name="ICON_ATLAS_BOUDICCA" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="muaddib50.dds"/>
+		<Row Name="ICON_ATLAS_BOUDICCA" IconSize="55"  IconsPerRow="1" IconsPerColumn="1" Filename="muaddib55.dds"/>
+		<Row Name="ICON_ATLAS_BOUDICCA" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="muaddib64.dds"/>
+		<Row Name="ICON_ATLAS_BOUDICCA" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="muaddib80.dds"/>
+		<Row Name="ICON_ATLAS_BOUDICCA" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="muaddib256.dds"/> -->
     </IconTextureAtlases>
 	<IconDefinitions>
 		<Row Name="ICON_LEADER_BOUDICCA"      Atlas="ICON_ATLAS_BOUDICCA" Index="0"/>

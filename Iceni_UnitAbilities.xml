@@ -3,26 +3,57 @@
 <GameInfo>
 	<Types>
 		<Row Type="ABILITY_CELTIC_WARRIOR" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_WORM_MOVEMENT" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_WORM_ATTACKS" Kind="KIND_ABILITY"/>
 	</Types>
 	<TypeTags>
 		<Row Type="ABILITY_CELTIC_WARRIOR"	Tag="CLASS_CELTIC_WARRIOR"/>
+		<Row Type="ABILITY_WORM_MOVEMENT"	Tag="CLASS_WORM"/>
+		<Row Type="ABILITY_WORM_ATTACKS"	Tag="CLASS_WORM"/>
 	</TypeTags>
 	<UnitAbilities>
 		<Row UnitAbilityType="ABILITY_CELTIC_WARRIOR" Name="LOC_ABILITY_CELTIC_WARRIOR_NAME" Description="LOC_ABILITY_CELTIC_WARRIOR_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_WORM_MOVEMENT" Name="LOC_WORM_HILLS_MOVEMENT_NAME" Description="LOC_WORM_HILLS_MOVEMENT_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_WORM_ATTACKS" Name="LOC_WORM_ATTACKS_NAME" Description="LOC_WORM_ATTACKS_DESCRIPTION"/>
 	</UnitAbilities>
 	<UnitAbilityModifiers>
 		<Row>
 			<UnitAbilityType>ABILITY_CELTIC_WARRIOR</UnitAbilityType>
 			<ModifierId>CELTIC_WARRIOR_FOREST_MOVEMENT</ModifierId>
 		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_WORM_MOVEMENT</UnitAbilityType>
+			<ModifierId>WORM_HILLS_MOVEMENT</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_WORM_ATTACKS</UnitAbilityType>
+			<ModifierId>WORM_ADDITIONAL_ATTACKS</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_WORM_ATTACKS</UnitAbilityType>
+			<ModifierId>MOD_MOVE_AFTER_ATTACKING</ModifierId>
+		</Row>
 	</UnitAbilityModifiers>
 	<Modifiers>
+		<Row>
+			<ModifierId>WORM_ADDITIONAL_ATTACKS</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_NUM_ATTACKS</ModifierType>
+		</Row>
 		<Row>
 			<ModifierId>CELTIC_WARRIOR_FOREST_MOVEMENT</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_IGNORE_TERRAIN_COST</ModifierType>
 		</Row>
+		<Row>
+			<ModifierId>WORM_HILLS_MOVEMENT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_IGNORE_TERRAIN_COST</ModifierType>
+		</Row>
   </Modifiers>
 	<ModifierArguments>
+		<Row>
+			<ModifierId>WORM_ADDITIONAL_ATTACKS</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
 		<Row>
 			<ModifierId>CELTIC_WARRIOR_FOREST_MOVEMENT</ModifierId>
 			<Name>Ignore</Name>
@@ -30,6 +61,16 @@
 		</Row>
 		<Row>
 			<ModifierId>CELTIC_WARRIOR_FOREST_MOVEMENT</ModifierId>
+			<Name>Type</Name>
+			<Value>HILLS</Value>
+		</Row>
+		<Row>
+			<ModifierId>WORM_HILLS_MOVEMENT</ModifierId>
+			<Name>Ignore</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>WORM_HILLS_MOVEMENT</ModifierId>
 			<Name>Type</Name>
 			<Value>HILLS</Value>
 		</Row>

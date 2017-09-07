@@ -2,19 +2,33 @@
 <GameData>
 	<Types>
 		<Row Type="LEADER_BOUDICCA" Kind="KIND_LEADER"/>
+		<Row Type="LEADER_LETO" Kind="KIND_LEADER"/>
 		<Row Type="FAITH_KILLS_TRAIT" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_GOLDEN_PATH" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_BUILDING_GOLDEN_PATH" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_BUILDING_HWI_NOREE" Kind="KIND_TRAIT"/>
 		<Row Type="TRAIT_LEADER_UNIT_FEDAYKIN_FREMEN" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_LEADER_UNIT_WORM" Kind="KIND_TRAIT"/>
 	</Types>
 	<Leaders>
 		<Row LeaderType="LEADER_BOUDICCA" Name="LOC_LEADER_BOUDICCA_NAME" InheritFrom="LEADER_DEFAULT" SceneLayers="4"/>
+		<Row LeaderType="LEADER_LETO" Name="LOC_LEADER_LETO_NAME" InheritFrom="LEADER_DEFAULT" SceneLayers="4"/>
 	</Leaders>
 	<LeaderTraits>
 		<Row LeaderType="LEADER_BOUDICCA" TraitType="FAITH_KILLS_TRAIT"/>
+		<Row LeaderType="LEADER_LETO" TraitType="TRAIT_GOLDEN_PATH"/>
+		<Row LeaderType="LEADER_LETO" TraitType="TRAIT_BUILDING_GOLDEN_PATH"/>
+		<Row LeaderType="LEADER_LETO" TraitType="TRAIT_BUILDING_HWI_NOREE"/>
+		<Row LeaderType="LEADER_LETO" TraitType="TRAIT_LEADER_UNIT_WORM"/>
 		<Row LeaderType="LEADER_BOUDICCA" TraitType="TRAIT_LEADER_UNIT_FEDAYKIN_FREMEN"/>
 	</LeaderTraits>
 	<Traits>
 		<Row TraitType="FAITH_KILLS_TRAIT" Name="LOC_TRAIT_LEADER_ANDRASTE_NAME" Description="LOC_TRAIT_LEADER_ANDRASTE_DESCRIPTION"/>
+		<Row TraitType="TRAIT_GOLDEN_PATH" Name="LOC_TRAIT_GOLDEN_PATH_NAME" Description="LOC_TRAIT_GOLDEN_PATH_DESCRIPTION"/>
 		<Row TraitType="TRAIT_LEADER_UNIT_FEDAYKIN_FREMEN" Name="LOC_UNIT_FEDAYKIN_FREMEN_NAME" Description="LOC_UNIT_FEDAYKIN_FREMEN_DESCRIPTION"/>
+		<Row TraitType="TRAIT_LEADER_UNIT_WORM" Name="LOC_UNIT_UNIT_WORM_NAME" Description="LOC_UNIT_WORM_DESCRIPTION"/>
+		<Row TraitType="TRAIT_BUILDING_GOLDEN_PATH" Name="LOC_BUILDING_GOLDEN_PATH_NAME" Description="LOC_BUILDING_GOLDEN_PATH_DESCRIPTION"/>
+		<Row TraitType="TRAIT_BUILDING_HWI_NOREE" Name="LOC_BUILDING_HWI_NOREE_NAME" Description="LOC_BUILDING_HWI_NOREE_DESCRIPTION"/>
 	</Traits>
 	<TraitModifiers>
 		<Row TraitType="FAITH_KILLS_TRAIT" ModifierId="UNIQUE_LEADER_FAITH_KILLS"/>
@@ -22,11 +36,19 @@
 			<TraitType>FAITH_KILLS_TRAIT</TraitType>
 			<ModifierId>UNIQUE_LEADER_ATRIEDES_ADD_VISIBILITY</ModifierId>
 		</Row>
+		<Row>
+			<TraitType>TRAIT_GOLDEN_PATH</TraitType>
+			<ModifierId>UNIQUE_LEADER_ATRIEDES_AMENITIES</ModifierId>
+		</Row>
 	</TraitModifiers>
 	<Modifiers>
 		<Row>
 			<ModifierId>UNIQUE_LEADER_ATRIEDES_ADD_VISIBILITY</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADD_DIPLO_VISIBILITY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>UNIQUE_LEADER_ATRIEDES_AMENITIES</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_OWNED_LUXURY_EXTRA_AMENITIES</ModifierType>
 		</Row>
 		<Row>
 			<ModifierId>UNIQUE_LEADER_FAITH_KILLS</ModifierId>
@@ -38,6 +60,11 @@
 			<ModifierId>UNIQUE_LEADER_ATRIEDES_ADD_VISIBILITY</ModifierId>
 			<Name>Amount</Name>
 			<Value>4</Value>
+		</Row>
+		<Row>
+			<ModifierId>UNIQUE_LEADER_ATRIEDES_AMENITIES</ModifierId>
+			<Name>Amount</Name>
+			<Value>-1</Value>
 		</Row>
 		<Row>
 			<ModifierId>UNIQUE_LEADER_ATRIEDES_ADD_VISIBILITY</ModifierId>
@@ -52,9 +79,11 @@
 	</ModifierArguments>
 	<DiplomacyInfo>
 		<Row Type="LEADER_BOUDICCA" BackgroundImage="LEADER_BOUDICCA_ICENIFORT"/>
+		<Row Type="LEADER_LETO" BackgroundImage="LEADER_BOUDICCA_ICENIFORT"/>
 	</DiplomacyInfo>
 	<HistoricalAgendas>
 		<Row LeaderType="LEADER_BOUDICCA" AgendaType="AGENDA_BOUDICCA_UPRISING"/>
+		<Row LeaderType="LEADER_LETO" AgendaType="AGENDA_BOUDICCA_UPRISING"/>
 	</HistoricalAgendas>
 	<AiListTypes>
 		<Row ListType="BoudiccaCivics"/>
@@ -67,10 +96,10 @@
 		<Row ListType="BoudiccaTechs" LeaderType="FAITH_KILLS_TRAIT" System="Technologies"/>
 	</AiLists>
 	<AiFavoredItems>
-		<Row ListType="BoudiccaWonders" Item="BUILDING_GREAT_LIGHTHOUSE"/>
+		<Row ListType="BoudiccaWonders" Item="BUILDING_PETRA"/>
 		<Row ListType="BoudiccaWonders" Item="BUILDING_TERRACOTTA_ARMY"/>
 		<Row ListType="BoudiccaWonders" Item="BUILDING_ALHAMBRA"/>
-		<Row ListType="BoudiccaWonders" Item="BUILDING_MONT_ST_MICHEL"/>
+		<Row ListType="BoudiccaWonders" Item="BUILDING_PYRAMIDS"/>
 		<Row ListType="BoudiccaWonders" Item="BUILDING_FORBIDDEN_CITY"/>
 		<Row ListType="BoudiccaCivics" Item="CIVIC_CRAFTSMANSHIP"/>
 		<Row ListType="BoudiccaCivics" Item="CIVIC_EARLY_EMPIRE"/>

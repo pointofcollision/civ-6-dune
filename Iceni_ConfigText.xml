@@ -6,13 +6,16 @@
 			<Text>Atriedes</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_ICENI_DESCRIPTION" Language="en_US">
-			<Text>House Atreides</Text>
+			<Text>House Atriedes</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_ICENI_ADJECTIVE" Language="en_US">
 			<Text>Atriedes</Text>
 		</Row>
 		<Row Tag="LOC_LEADER_BOUDICCA_NAME" Language="en_US">
 			<Text>Muad'Dib</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_LETO_NAME" Language="en_US">
+			<Text>Leto II</Text>
 		</Row>
 		<Row Tag="LOC_AGENDA_BOUDICCA_UPRISING_NAME" Language="en_US">
 			<Text>Muad'Dib's Uprising</Text>
@@ -23,11 +26,26 @@
 		<Row Tag="LOC_LOADING_INFO_LEADER_BOUDICCA" Language="en_US">
 			<Text>Your enemies secrets lay open before you, great Kwisatz Haderach of the Atriedes line. Your rule will become a legend for others to follow, hoping to measure up in some small way to the titanic figure you take within myth. In all corners of the empire, the name Paul Muad'Dib is never forgotten.</Text>
 		</Row>
+		<Row Tag="LOC_LOADING_INFO_LEADER_LETO" Language="en_US">
+			<Text>Your rule stands as an iron fist to the people of the empire, mighty child of Muad'Dib. While those after you will decry you as the Tyrant who rule for 3500 years, they will remain blissfully unaware that the millennia of misery you subjected your people to was the sole reason they survived, and resulted ultimately in an explosion of genetics in the Atriedes line that allowed them to free themselves from the bonds of fate and forge their own destiny.</Text>
+		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_ICKNIELD_WAY_NAME" Language="en_US">
 			<Text>Sareer</Text>
 		</Row>
+		<Row Tag="LOC_TRAIT_GOLDEN_PATH_NAME" Language="en_US">
+			<Text>The Golden Path</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_GOLDEN_PATH_DESCRIPTION" Language="en_US">
+			<Text>-1 [ICON_Amenities] Amenities from Luxury Resources. Upon researching chemistry, cities get +50% [ICON_Gold] Gold, +50% [ICON_Production] Production, and +1 [ICON_Amenities] Amenities</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_GOLDEN_PATH_NAME" Language="en_US">
+			<Text>The Golden Path</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_GOLDEN_PATH_DESCRIPTION" Language="en_US">
+			<Text>+50% [ICON_Gold] Gold and +50% [ICON_Production] Production</Text>
+		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_ICKNIELD_WAY_DESCRIPTION" Language="en_US">
-			<Text>Capital has +1 to all non-culture yields (+2 [ICON_Food] Food), and +1 [ICON_Housing] Housing. +2 [ICON_Faith] Faith and +2 [ICON_Science] Science from desert tiles in the capital.</Text>
+			<Text>Capital has +1 to all non-culture yields (+2 [ICON_Food] Food), and +1 [ICON_Housing] Housing. +1 [ICON_Faith] Faith and +1 [ICON_Science] Science from desert and desert hill tiles in the empire</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_ANDRASTE_NAME" Language="en_US">
 			<Text>Kwisatz Haderach</Text>
@@ -36,13 +54,13 @@
 			<Text>Sietch</Text>
 		</Row>
 		<Row Tag="LOC_IMPROVEMENT_SIETCH_DESCRIPTION" Language="en_US">
-			<Text>Atriedes' Unique improvement, gives +1 [ICON_Culture] Culture, +1 [ICON_Faith] Faith, +1 [ICON_Food] Food, and +1 [ICON_Production] Production, as well as +2 [ICON_Housing] Housing. Can be constructed on desert/tundra or desert hill tiles once the Animal Husbandry tech has been researched. Can be plundered for 150 [ICON_Faith] Faith.</Text>
+			<Text>Atriedes' Unique improvement, gives +1 [ICON_Culture] Culture, +1 [ICON_Faith] Faith, +1 [ICON_Food] Food, and +1 [ICON_Production] Production, as well as +2 [ICON_Housing] Housing. Can be constructed on desert/tundra or desert hill tiles once the Mining tech has been researched. Can be plundered for 150 [ICON_Faith] Faith.</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_ANDRASTE_DESCRIPTION" Language="en_US">
 			<Text>4 levels of [ICON_VisLimited] Diplomatic Visibility more than normal with other civilizations met.</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_CITADEL_DESCRIPTION" Language="en_US">
-			<Text>The Arrakeen fortress that Muad'Dib spent his days as emperor in, this building adds +1 to all non-culture yields (+2 [ICON_Food] Food)</Text>
+			<Text>The Arrakeen fortress that Muad'Dib spent his days as emperor in, this building adds +1 to all non-culture yields (+2 [ICON_Food] Food).</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_CITADEL_NAME" Language="en_US">
 			<Text>The Keep</Text>
@@ -69,7 +87,7 @@
 			<Text>Idol of Sustenance</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_IDOL_FOOD_DESCRIPTION" Language="en_US">
-			<Text>A pragmatic figure with a hunter's pack, this idol helps to prepare its masters for the harsh realities of the wilderness. +5 [ICON_Food] Food and +10% [ICON_Food] Food in this city. +1 [ICON_Food] Food from tiles adjacent to farms in this city</Text>
+			<Text>A pragmatic figure with a hunter's pack, this idol helps to prepare its masters for the harsh realities of the wilderness. +5 [ICON_Food] Food and +10% [ICON_Food] Food in this city. +1 [ICON_Food] Food from all tiles in this city</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_IDOL_FAITH_NAME" Language="en_US">
 			<Text>Idol of Belief</Text>
@@ -129,7 +147,7 @@
 			<Text>Arrakis</Text>
 		</Row>
 		<Row Tag="LOC_CIVLIZATION_ICENI_CITY_6" Language="en_US">
-			<Text>House Atreides</Text>
+			<Text>House Atriedes</Text>
 		</Row>
 		<Row Tag="LOC_CIVLIZATION_ICENI_CITY_7" Language="en_US">
 			<Text>House Harkonnen</Text>

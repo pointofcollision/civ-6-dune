@@ -18,6 +18,23 @@
 			<Portrait>LEADER_BOUDICCA_NEUTRAL</Portrait>
 			<PortraitBackground>LEADER_BOUDICCA_BACKGROUND</PortraitBackground>
 		</Row>
+		<Row>
+			<Domain>StandardPlayers</Domain>
+			<CivilizationType>CIVILIZATION_ICENI</CivilizationType>
+			<LeaderType>LEADER_LETO</LeaderType>
+			<CivilizationName>LOC_CIVILIZATION_ICENI_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_ICENI</CivilizationIcon>
+			<LeaderName>LOC_LEADER_LETO_NAME</LeaderName>
+			<LeaderIcon>ICON_LEADER_BOUDICCA</LeaderIcon>
+			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_ICKNIELD_WAY_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_ICKNIELD_WAY_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_ICENI</CivilizationAbilityIcon>
+			<LeaderAbilityName>LOC_TRAIT_GOLDEN_PATH_NAME</LeaderAbilityName>
+			<LeaderAbilityDescription>LOC_TRAIT_GOLDEN_PATH_DESCRIPTION</LeaderAbilityDescription>
+			<LeaderAbilityIcon>ICON_LEADER_BOUDICCA</LeaderAbilityIcon>
+			<Portrait>LEADER_BOUDICCA_NEUTRAL</Portrait>
+			<PortraitBackground>LEADER_BOUDICCA_BACKGROUND</PortraitBackground>
+		</Row>
 	</Players>
 	<PlayerItems>
 		<Row>
@@ -29,6 +46,16 @@
 			<Description>LOC_UNIT_CELTIC_WARRIOR_DESCRIPTION</Description>
 			<Icon>ICON_UNIT_CELTIC_WARRIOR</Icon>
 			<SortIndex>20</SortIndex>
+		</Row>
+		<Row>
+			<Domain>StandardPlayers</Domain>
+			<CivilizationType>CIVILIZATION_ICENI</CivilizationType>
+			<LeaderType>LEADER_LETO</LeaderType>
+			<Type>UNIT_CELTIC_WARRIOR</Type>
+			<Name>LOC_UNIT_CELTIC_WARRIOR_NAME</Name>
+			<Description>LOC_UNIT_CELTIC_WARRIOR_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_CELTIC_WARRIOR</Icon>
+			<SortIndex>21</SortIndex>
 		</Row>
 		<Row>
 			<Domain>StandardPlayers</Domain>
@@ -49,6 +76,16 @@
 			<Description>LOC_IMPROVEMENT_SIETCH_DESCRIPTION</Description>
 			<Icon>ICON_IMPROVEMENT_KURGAN</Icon>
 			<SortIndex>90</SortIndex>
+		</Row>
+		<Row>
+			<Domain>StandardPlayers</Domain>
+			<CivilizationType>CIVILIZATION_ICENI</CivilizationType>
+			<LeaderType>LEADER_LETO</LeaderType>
+			<Type>IMPROVEMENT_KURGAN</Type>
+			<Name>LOC_IMPROVEMENT_SIETCH_NAME</Name>
+			<Description>LOC_IMPROVEMENT_SIETCH_DESCRIPTION</Description>
+			<Icon>ICON_IMPROVEMENT_KURGAN</Icon>
+			<SortIndex>91</SortIndex>
 		</Row>
 		<Row>
 			<Domain>StandardPlayers</Domain>

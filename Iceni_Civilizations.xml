@@ -12,6 +12,7 @@
 	</Civilizations>
 	<CivilizationLeaders>
 		<Row CivilizationType="CIVILIZATION_ICENI" LeaderType="LEADER_BOUDICCA" CapitalName="LOC_CIVLIZATION_ICENI_CITY_1"/>
+		<Row CivilizationType="CIVILIZATION_ICENI" LeaderType="LEADER_LETO" CapitalName="LOC_CIVLIZATION_ICENI_CITY_1"/>
 	</CivilizationLeaders>
 	<CivilizationTraits>
 		<Row CivilizationType="CIVILIZATION_ICENI" TraitType="TRAIT_CIVILIZATION_ICKNIELD_WAY"/>
@@ -26,23 +27,99 @@
 		<Row TraitType="TRAIT_CIVILIZATION_UNIT_CELTIC_WARRIOR" Name="LOC_UNIT_CELTIC_WARRIOR_NAME" Description="LOC_UNIT_CELTIC_WARRIOR_DESCRIPTION"/>
 	</Traits>
 	<TraitModifiers>
-		<Row>
+		<!-- <Row>
 			<TraitType>TRAIT_CIVILIZATION_ICKNIELD_WAY</TraitType>
 			<ModifierId>TRAIT_ICKNIELD_WAY_FAITH_PURCHASE_UNITS</ModifierId>
+		</Row> -->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_ICKNIELD_WAY</TraitType>
+			<ModifierId>TRAIT_INCREASED_DESERT_FAITH</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_ICKNIELD_WAY</TraitType>
+			<ModifierId>TRAIT_INCREASED_DESERT_HILLS_FAITH</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_ICKNIELD_WAY</TraitType>
+			<ModifierId>TRAIT_INCREASED_DESERT_SCIENCE</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_ICKNIELD_WAY</TraitType>
+			<ModifierId>TRAIT_INCREASED_DESERT_HILLS_SCIENCE</ModifierId>
 		</Row>
 	</TraitModifiers>
 	<Modifiers>
 		<Row>
+			<ModifierId>TRAIT_INCREASED_DESERT_FAITH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>FOOD_PLOT_HAS_DESERT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INCREASED_DESERT_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>FOOD_PLOT_HAS_DESERT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INCREASED_DESERT_HILLS_FAITH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>FOOD_PLOT_HAS_DESERT_HILLS_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INCREASED_DESERT_HILLS_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>FOOD_PLOT_HAS_DESERT_HILLS_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<!-- <Row>
 			<ModifierId>TRAIT_ICKNIELD_WAY_FAITH_PURCHASE_UNITS</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_CITIES_ENABLE_UNIT_FAITH_PURCHASE</ModifierType>
-		</Row>
+		</Row> -->
 	</Modifiers>
 	<ModifierArguments>
 		<Row>
-			<ModifierId>TRAIT_ICKNIELD_WAY_FAITH_PURCHASE_UNITS</ModifierId>
-			<Name>Tag</Name>
-			<Value>CLASS_ICKNIELD_WAY</Value>
+			<ModifierId>TRAIT_INCREASED_DESERT_FAITH</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
 		</Row>
+		<Row>
+			<ModifierId>TRAIT_INCREASED_DESERT_FAITH</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INCREASED_DESERT_SCIENCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INCREASED_DESERT_SCIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INCREASED_DESERT_HILLS_FAITH</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INCREASED_DESERT_HILLS_FAITH</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INCREASED_DESERT_HILLS_SCIENCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INCREASED_DESERT_HILLS_SCIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<!-- <Row> -->
+			<!-- <ModifierId>TRAIT_ICKNIELD_WAY_FAITH_PURCHASE_UNITS</ModifierId> -->
+			<!-- <Name>Tag</Name> -->
+			<!-- <Value>CLASS_ICKNIELD_WAY</Value> -->
+		<!-- </Row> -->
 	</ModifierArguments>
 	<Tags>
 		<Row Tag="CLASS_ICKNIELD_WAY" Vocabulary="ABILITY_CLASS"/>

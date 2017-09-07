@@ -2,11 +2,13 @@
 <GameData>
 	<Types>
 		<Row Type="BUILDING_CITADEL" Kind ="KIND_BUILDING" />
+		<Row Type="BUILDING_GOLDEN_PATH" Kind ="KIND_BUILDING" />
 		<Row Type="BUILDING_IDOL_SCIENCE" Kind ="KIND_BUILDING" />
 		<Row Type="BUILDING_IDOL_GOLD" Kind ="KIND_BUILDING" />
 		<Row Type="BUILDING_IDOL_CULTURE" Kind ="KIND_BUILDING" />
 		<Row Type="BUILDING_IDOL_FOOD" Kind ="KIND_BUILDING" />
 		<Row Type="BUILDING_IDOL_FAITH" Kind ="KIND_BUILDING" />
+		<Row Type="BUILDING_HWI_NOREE" Kind ="KIND_BUILDING" />
 		<Row Type="BUILDING_IDOL_PRODUCTION" Kind ="KIND_BUILDING" />
 		
 	</Types>
@@ -14,16 +16,18 @@
 		
 	</BuildingReplaces>
 	<Buildings>
-		<Row BuildingType="BUILDING_CITADEL" Name="LOC_BUILDING_CITADEL_NAME" Description="LOC_BUILDING_CITADEL_DESCRIPTION" PrereqDistrict="DISTRICT_CITY_CENTER" Cost="1" AdvisorType="ADVISOR_GENERIC" MaxWorldInstances="1" IsWonder="true" Housing="1" Entertainment="1" MaxPlayerInstances="1" TraitType="TRAIT_CIVILIZATION_BUILDING_KEEP" />
+		<Row BuildingType="BUILDING_CITADEL" Name="LOC_BUILDING_CITADEL_NAME" Description="LOC_BUILDING_CITADEL_DESCRIPTION" PrereqDistrict="DISTRICT_CITY_CENTER" Cost="1" AdvisorType="ADVISOR_GENERIC" MaxWorldInstances="2" IsWonder="true" Housing="1" Entertainment="1" MaxPlayerInstances="1" TraitType="TRAIT_CIVILIZATION_BUILDING_KEEP" />
+		<Row BuildingType="BUILDING_GOLDEN_PATH" Name="LOC_BUILDING_GOLDEN_PATH_NAME" Description="LOC_BUILDING_GOLDEN_PATH_DESCRIPTION" PrereqTech="TECH_CHEMISTRY" PrereqDistrict="DISTRICT_CITY_CENTER" Cost="1" AdvisorType="ADVISOR_GENERIC" Entertainment="1" TraitType="TRAIT_BUILDING_GOLDEN_PATH" />
 		<Row BuildingType="BUILDING_IDOL_SCIENCE" Name="LOC_BUILDING_IDOL_SCIENCE_NAME" Description="LOC_BUILDING_IDOL_SCIENCE_DESCRIPTION" PrereqTech="TECH_EDUCATION" PrereqDistrict="DISTRICT_CAMPUS" Cost="500" AdvisorType="ADVISOR_GENERIC" MaxWorldInstances="1" IsWonder="true" MaxPlayerInstances="1" />
 		<Row BuildingType="BUILDING_IDOL_GOLD" Name="LOC_BUILDING_IDOL_GOLD_NAME" Description="LOC_BUILDING_IDOL_GOLD_DESCRIPTION" PrereqTech="TECH_CURRENCY" PrereqDistrict="DISTRICT_COMMERCIAL_HUB" Cost="250" AdvisorType="ADVISOR_GENERIC" MaxWorldInstances="1" IsWonder="true" MaxPlayerInstances="1" />
 		<Row BuildingType="BUILDING_IDOL_CULTURE" Name="LOC_BUILDING_IDOL_CULTURE_NAME" Description="LOC_BUILDING_IDOL_CULTURE_DESCRIPTION" PrereqCivic="CIVIC_DRAMA_POETRY" PrereqDistrict="DISTRICT_THEATER" Cost="250" AdvisorType="ADVISOR_GENERIC" MaxWorldInstances="1" IsWonder="true" MaxPlayerInstances="1" />
 		<Row BuildingType="BUILDING_IDOL_FOOD" Name="LOC_BUILDING_IDOL_FOOD_NAME" Description="LOC_BUILDING_IDOL_FOOD_DESCRIPTION" PrereqTech="TECH_ENGINEERING" PrereqDistrict="DISTRICT_AQUEDUCT" Cost="150" AdvisorType="ADVISOR_GENERIC" MaxWorldInstances="1" IsWonder="true" MaxPlayerInstances="1" />
 		<Row BuildingType="BUILDING_IDOL_FAITH" Name="LOC_BUILDING_IDOL_FAITH_NAME" Description="LOC_BUILDING_IDOL_FAITH_DESCRIPTION" PrereqTech="TECH_ASTROLOGY" PrereqDistrict="DISTRICT_HOLY_SITE" Cost="100" AdvisorType="ADVISOR_GENERIC" MaxWorldInstances="1" IsWonder="true" MaxPlayerInstances="1" />
 		<Row BuildingType="BUILDING_IDOL_PRODUCTION" Name="LOC_BUILDING_IDOL_PRODUCTION_NAME" Description="LOC_BUILDING_IDOL_PRODUCTION_DESCRIPTION" PrereqTech="TECH_APPRENTICESHIP" PrereqDistrict="DISTRICT_INDUSTRIAL_ZONE" Cost="500" AdvisorType="ADVISOR_GENERIC" MaxWorldInstances="1" IsWonder="true" MaxPlayerInstances="1" />
-	
+		<Row BuildingType="BUILDING_HWI_NOREE" Name="LOC_BUILDING_HWI_NOREE_NAME" Description="LOC_BUILDING_HWI_NOREE_DESCRIPTION" PrereqTech="TECH_CHEMISTRY" PrereqDistrict="DISTRICT_CITY_CENTER" Cost="5" AdvisorType="ADVISOR_GENERIC" MaxWorldInstances="1" IsWonder="true" MaxPlayerInstances="1" TraitType="TRAIT_BUILDING_HWI_NOREE" />
 	</Buildings>
 	<Building_YieldChanges>
+		<Row BuildingType="BUILDING_HWI_NOREE" YieldType="YIELD_FAITH" YieldChange="5"/>
 		<Row BuildingType="BUILDING_CITADEL" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
 		<Row BuildingType="BUILDING_CITADEL" YieldType="YIELD_SCIENCE" YieldChange="1"/>
 		<Row BuildingType="BUILDING_CITADEL" YieldType="YIELD_FAITH" YieldChange="1"/>
@@ -45,12 +49,26 @@
 	</Building_GreatPersonPoints>
 	<Modifiers>
 		<Row>
+			<ModifierId>HWI_NOREE_GRANT_WORM</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_UNIT_IN_CITY</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<!-- <Row>
 			<ModifierId>KEEP_DESERT_SCIENCE</ModifierId>
 			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
 			<SubjectRequirementSetId>CITY_HAS_KEEP_REQUIREMENTS</SubjectRequirementSetId>
-		</Row>
+		</Row> -->
 		<Row>
 			<ModifierId>IDOL_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>PATH_GOLD</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>PATH_PRODUCTION</ModifierId>
 			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
 		</Row>
 		<Row>
@@ -73,11 +91,11 @@
 			<ModifierId>IDOL_PRODUCTION</ModifierId>
 			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
 		</Row>
-		<Row>
+		<!-- <Row>
 			<ModifierId>KEEP_DESERT_HILLS_SCIENCE</ModifierId>
 			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
 			<SubjectRequirementSetId>CITY_HAS_KEEP_REQUIREMENTS</SubjectRequirementSetId>
-		</Row>
+		</Row> -->
 		<Row>
 			<ModifierId>IDOL_FARM_FOOD</ModifierId>
 			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
@@ -86,14 +104,14 @@
 		<Row>
 			<ModifierId>IDOL_FARM_FOOD_MODIFIER</ModifierId>
 			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
-			<SubjectRequirementSetId>PLOT_ADJACENT_TO_FARM_REQUIREMENTS</SubjectRequirementSetId>
+			<SubjectRequirementSetId>CITY_HAS_IDOL_FOOD_REQUIREMENTS</SubjectRequirementSetId>
 		</Row>
-		<Row>
+		<!-- <Row>
 			<ModifierId>KEEP_DESERT_FAITH</ModifierId>
 			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
 			<SubjectRequirementSetId>CITY_HAS_KEEP_REQUIREMENTS</SubjectRequirementSetId>
-		</Row>
-		<Row>
+		</Row> -->
+		<!-- <Row>
 			<ModifierId>KEEP_DESERT_HILLS_FAITH</ModifierId>
 			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
 			<SubjectRequirementSetId>CITY_HAS_KEEP_REQUIREMENTS</SubjectRequirementSetId>
@@ -117,9 +135,39 @@
 			<ModifierId>KEEP_DESERT_HILLS_FAITH_MODIFIER</ModifierId>
 			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
 			<SubjectRequirementSetId>FOOD_PLOT_HAS_DESERT_HILLS_REQUIREMENTS</SubjectRequirementSetId>
-		</Row>
+		</Row> -->
 	</Modifiers>
 	<ModifierArguments>
+		<Row>
+			<ModifierId>HWI_NOREE_GRANT_WORM</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_WORM</Value>
+		</Row>
+		<Row>
+			<ModifierId>HWI_NOREE_GRANT_WORM</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>PATH_GOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<Row>
+			<ModifierId>PATH_GOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>PATH_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<Row>
+			<ModifierId>PATH_PRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
 		<Row>
 			<ModifierId>IDOL_SCIENCE</ModifierId>
 			<Name>Amount</Name>
@@ -180,7 +228,7 @@
 			<Name>YieldType</Name>
 			<Value>YIELD_PRODUCTION</Value>
 		</Row>
-		<Row>
+		<!-- <Row>
 			<ModifierId>KEEP_DESERT_FAITH</ModifierId>
 			<Name>ModifierId</Name>
 			<Value>KEEP_DESERT_FAITH_MODIFIER</Value>
@@ -219,7 +267,7 @@
 			<ModifierId>KEEP_DESERT_HILLS_SCIENCE</ModifierId>
 			<Name>ModifierId</Name>
 			<Value>KEEP_DESERT_HILLS_SCIENCE_MODIFIER</Value>
-		</Row>
+		</Row> -->
 		<Row>
 			<ModifierId>IDOL_FARM_FOOD</ModifierId>
 			<Name>ModifierId</Name>
@@ -235,7 +283,7 @@
 			<Name>Amount</Name>
 			<Value>1</Value>
 		</Row>
-		<Row>
+		<!-- <Row>
 			<ModifierId>KEEP_DESERT_SCIENCE_MODIFIER</ModifierId>
 			<Name>YieldType</Name>
 			<Value>YIELD_SCIENCE</Value>
@@ -254,10 +302,10 @@
 			<ModifierId>KEEP_DESERT_HILLS_SCIENCE_MODIFIER</ModifierId>
 			<Name>Amount</Name>
 			<Value>2</Value>
-		</Row>
+		</Row> -->
 	</ModifierArguments>
 	<BuildingModifiers>
-		<Row>
+		<!-- <Row>
 			<BuildingType>BUILDING_CITADEL</BuildingType>
 			<ModifierId>KEEP_DESERT_SCIENCE</ModifierId>
 		</Row>
@@ -272,6 +320,18 @@
 		<Row>
 			<BuildingType>BUILDING_CITADEL</BuildingType>
 			<ModifierId>KEEP_DESERT_HILLS_SCIENCE</ModifierId>
+		</Row> -->
+		<Row>
+			<BuildingType>BUILDING_HWI_NOREE</BuildingType>
+			<ModifierId>HWI_NOREE_GRANT_WORM</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_GOLDEN_PATH</BuildingType>
+			<ModifierId>PATH_GOLD</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_GOLDEN_PATH</BuildingType>
+			<ModifierId>PATH_PRODUCTION</ModifierId>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_IDOL_FOOD</BuildingType>
@@ -303,21 +363,21 @@
 		</Row>
 	</BuildingModifiers>
 	<Requirements>
-		<Row>
+		<!-- <Row>
 			<RequirementId>REQUIRES_CITY_HAS_KEEP</RequirementId>
 			<RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType>
-		</Row>
+		</Row> -->
 		<Row>
 			<RequirementId>REQUIRES_CITY_HAS_IDOL_FOOD</RequirementId>
 			<RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType>
 		</Row>
 	</Requirements>
 	<RequirementArguments>
-		<Row>
+		<!-- <Row>
 			<RequirementId>REQUIRES_CITY_HAS_KEEP</RequirementId>
 			<Name>BuildingType</Name>
 			<Value>BUILDING_CITADEL</Value>
-		</Row>
+		</Row> -->
 		<Row>
 			<RequirementId>REQUIRES_CITY_HAS_IDOL_FOOD</RequirementId>
 			<Name>BuildingType</Name>
@@ -325,10 +385,10 @@
 		</Row>
 	</RequirementArguments>
 	<RequirementSets>
-			<Row>
+			<!-- <Row>
 			<RequirementSetId>CITY_HAS_KEEP_REQUIREMENTS</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
-		</Row>
+		</Row> -->
 		<Row>
 			<RequirementSetId>CITY_HAS_IDOL_FOOD_REQUIREMENTS</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
@@ -336,10 +396,10 @@
 	</RequirementSets>
 	
 	<RequirementSetRequirements>
-		<Row>
+		<!-- <Row>
 			<RequirementSetId>CITY_HAS_KEEP_REQUIREMENTS</RequirementSetId>
 			<RequirementId>REQUIRES_CITY_HAS_KEEP</RequirementId>
-		</Row>
+		</Row> -->
 		<Row>
 			<RequirementSetId>CITY_HAS_IDOL_FOOD_REQUIREMENTS</RequirementSetId>
 			<RequirementId>REQUIRES_CITY_HAS_IDOL_FOOD</RequirementId>
